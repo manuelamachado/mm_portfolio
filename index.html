@@ -7,37 +7,42 @@
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.1/css/bulma.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
 
-	<link rel="icon" type="image/x-icon" href="assets/img/favicon.png">
-	<meta name="author" content="Hassan Ali">
+	<link rel="icon" type="image/x-icon" href="assets/img/MM.png">
+	<meta name="author" content="Manuela Machado">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 	<body>
 		<!-- Navbar -->
-		<nav class="nav container void-background">
-			<!-- This "nav-menu" is hidden on mobile -->
-			<!-- Add the modifier "is-active" to display it on mobile -->
+	<nav class="nav container void-background">
 			<div class="nav-left">
-				<a href="http://medium.com/@hassanhelfi/" class="nav-item">
+				<a href="malito:manuelamachhado.m@gmail.com" class="nav-item">
 					<span class="icon">
-						<i class="fa fa-medium"></i>
+						<i class="fa fa-envelope"></i>
 					</span>
 				</a>
-				<a href="http://github.com/helfi92" class="nav-item">
+				<a href="https://github.com/manuelamachado" class="nav-item">
 					<span class="icon">
 						<i class="fa fa-github"></i>
 					</span>
 				</a>
-				<a href="https://twitter.com/hassanhelfi" class="nav-item">
+				<a href="https://www.linkedin.com/in/manuela-machado" class="nav-item">
+					<span class="icon">
+						<i class="fa fa-linkedin"></i>
+					</span>
+				</a>
+				<a href="https://twitter.com/Manuela_Machado" class="nav-item">
 					<span class="icon">
 						<i class="fa fa-twitter"></i>
 					</span>
 				</a>				
 			</div>
+  
+
 
 			<div class="nav-right nav-menu">
 				<a class="nav-item" href="#about">About</a>
 				<a class="nav-item" href="#projects">Projects</a>
-				<a class="nav-item" href="#social">Social</a>
+				<a class="nav-item" href="#social">Contact</a>
 			</div>
 
 			<!-- This "nav-toggle" hamburger menu is only visible on mobile -->
@@ -53,81 +58,186 @@
 		<section id="about" class="section section-1">
 			<div class="container has-text-centered">
 				<!-- Source: https://flic.kr/p/pAZBNK -->
-				<img class="avatar" src="assets/img/profile.png">
+				<h3 class="title is-3">Manuela Machado</h3>
+				<br>
+				<!--<img src="img_avatar.png" alt="Avatar" style="width:200px">-->
+				<img src="assets/img/profile.png" class="img-circle" alt="Manuela" style="width:200px">
 			</div>
-			<div class="container"></br>
+			<div class="container"><br>
 				<p class="intro">
-					Lorem Khaled Ipsum is a major key to success. To succeed you must believe. When you believe, you will succeed. Mogul talk. Find peace, life is like a water fall, you’ve gotta flow. Lion! Fan luv. Eliptical talk.
+						I am a Data enthusiast who likes to code and use data visualizations to communicate stories about the world. Acquired several years of experience in the retail, automotive, and energy industries. Effective at manipulating qualitative and quantitative data, and sharing findings with cross-functional partners in fast-paced dynamic environments.
 				</p>
+				<br>
+				<p class="intro"> Code Languages: Python, R, SQL, VBA | Languages for Web: HTML, CSS, JavaScript | Data Manipulation & Visualization: pandas, Matplotlib, seaborn, Tableau, D3, Carto | Machine Learning: scikit-learn, TensorFlow | Database: MySQL, PostgreSQL, MongoDB | Other: Git, AWS, Flask, command line | Speak Languages: Portuguese, Spanish, English</p>
 			</div>
 		</section>
 		
 		<!-- Projects -->
 		<section  id="projects" class="section section-2">
-			<div class="container">
-				<div class="has-text-centered">
+
+			<!--<div class="container">-->
+				<div class=" has-text-centered">
 					<h3 class="title is-3">Projects</h3>
-				</div>
-				
-				<div class="columns is-multiline is-desktop">
-					<!-- Project 1 -->
-					<div class="column">
-						<div class="box project-text">
-							<article>
-								<div>
-									<figure class="image project-figure">
-										<img src="assets/img/project-1.jpg" alt="Image">
+
+						<div class="col-md-12">
+								<div class="card-group">
+									<div class="card">
+									<figure class="image project-figure">	
+									<img src="images/energy-solar.png" alt="" >
 									</figure>
+									<div class="card-body">
+										<h5 class=card-title>Machine Learning/Time Series</h5>
+										<div class="container-fluid">
+											<p class="card-text">Time Series exploration applying Machine Learning to forecast residential solar energy consumption in the US using four distinct techniques: Autoregression, Linear Regression, Multi-layer Perceptron Regressor, and Random Forest Regressor.</p>
+											<p class="card-text"><small class="text-muted">Application demo: <a href="https://energy-solar.herokuapp.com/">https://energy-solar.herokuapp.com/</a></small></p>
+										</div>
+									</div>
+									</div>
+									<div class="card">
+										<figure class="image project-figure">
+										<img src="images/citibike_.png" alt="" >
+										</figure>
+										<div class="card-body">
+											<h5 class=card-title>Tableau</h5>
+											<div class="container-fluid">
+												<p class="card-text">Data visualizations to communicate stories about the world, data provided by the Citi bike sharing service, Gun Violence Archive and others.</p>
+												<p class="card-text"><small class="text-muted">Tableau public: <a href="https://public.tableau.com/profile/manuela.machado4726#!/">https://public.tableau.com/profile/manuela.machado4726#!/</a></small></p>
+											</div>
+										</div>
+										</div>
+									<div class="card">
+											<figure class="image project-figure">
+											<img src="images/Web_viz_.png" alt="Image" >
+											</figure>
+											<div class="card-body">
+												<h5 class=card-title>Web Visualization/HTML-CSS/Matplotlib</h5>
+												<div class="container-fluid">
+													<p class="card-text">Visualization dashboard website to show how four treatments (Capomulin, Infubinol, Ketapril, and Placebo) compare.</p>
+													<p class="card-text"><small class="text-muted">Application demo: <a href="https://manuelamachado.github.io/Web-Visualization-Dashboard/">https://manuelamachado.github.io/Web-Visualization-Dashboard/</a></small></p>
+												</div>
+											</div>
+											</div>
+									<div class="card">
+											<figure class="image project-figure">
+											<img src="images/earthquakes_.png" alt="Image" >
+											</figure>
+													<div class="card-body">
+													  <h5 class="card-title">Leaflet/Javascript/GeoJSON</h5>
+													  <div class="container-fluid">
+													  <p class="card-text"> Map visualization of earthquakes with interactive controls for layer selection, data from US Geological Survey (USGS).</p>
+													  <p class="card-text"><small class="text-muted">Application demo: <a href="https://manuelamachado.github.io/Visualizing-Data-with-Leaflet/">https://manuelamachado.github.io/Visualizing-Data-with-Leaflet/</a></small></p>
+													</div>
+												</div>
+											</div>
+									<div class="card">
+										<figure class="image project-figure">
+										<img src="images/belly.png" alt="Image" >
+										</figure>
+									  <div class="card-body">
+										<h5 class="card-title">Plotly/SQL/Heroku</h5>
+										<div class="container-fluid">
+										<p class="card-text">Full-Stack Data Analytics Web Application. Utilized a data source provided by a sqlite database, displayed a visualization of the data using Flask and Javascript with Plotly tools. </p>
+										<p class="card-text"><small class="text-muted">Application demo: <a  href="https://floating-temple-85728.herokuapp.com/">https://floating-temple-85728.herokuapp.com/</a></small></p>
+									</div>
+									  </div>
+									</div>
+									<div class="card">
+											<figure class="image project-figure">
+											<img src="images/mission_mars.png" alt="Image" >
+											</figure>
+											<div class="card-body">
+											  <h5 class="card-title">Web Scraping/Python/MongoDB</h5>
+										   <div class="container-fluid">
+											  <p class="card-text">Web application which explores information about planet Mars by scraping data from serveral web sources and compiling the extracted data into a single web page for visualization. </p>
+											  <p class="card-text"><small class="text-muted">Repsitory link: <a href="https://github.com/manuelamachado/Mission_to_Mars">https://github.com/manuelamachado/Mission_to_Mars</a></small></p>
+											</div></div>
+									</div>
+									<div class="card">
+										<figure class="image project-figure">
+										<img src="images/healthfacts_.png" alt="Image" >
+										</figure>
+									  <div class="card-body">
+										<h5 class="card-title">D3/Javascript</h5>
+										<div class="container-fluid">
+										<p class="card-text">D3 which explores associations between demographics and behavioral risk factors. Uses survey data collected from the American Community Survey and the Behavioral Risk Factor Surveillance System during the year 2014.</p>
+										<p class="card-text"><small class="text-muted">Application demo: <a  href="https://manuelamachado.github.io/Data_Journalism_and_D3/">https://manuelamachado.github.io/Data_Journalism_and_D3/</a></small></p>
+									</div>
+									  </div>
+									</div>
+									<div class="card ">
+											<figure class="image project-figure">
+											<img src="images/DOM.png" alt="Image" >
+											</figure>
+									  <div class="card-body">
+										<h5 class="card-title">JavaScript/SQL/Flask</h5>
+										<div class="container-fluid">
+										<p class="card-text">Webpage to allow a searchable filter criteria and pagination rendered in the page and access data from SQLite database.  </p>
+										<p class="card-text"><small class="text-muted">Application demo: <a href="https://manuelamachado.github.io/Javascript_and_DOM_Manipulation/">https://manuelamachado.github.io/Javascript_and_DOM_Manipulation/</a> </small></p>
+									</div>  
+									</div>
+									</div>
+									<div class="card">
+											<figure class="image project-figure">
+											<img src="images/SentimentAnalysis.png" alt="Image" >
+											</figure>
+											<div class="card-body">
+											  <h5 class="card-title">Python/Matplotlib/Twitter API</h5>
+											  <div class="container-fluid">
+											  <p class="card-text">Python script to perform a sentiment analysis of the Twitter activity of the following news organizations: BBC, CBS, CNN, Fox, and New York times. </p>
+											  <p class="card-text"><small class="text-muted">Repository link: <a href="https://github.com/manuelamachado/News-Mood">https://github.com/manuelamachado/News-Mood</a></small></p>
+											</div></div>
+									</div>
 								</div>
-								<div>			
-									<p>
-										They don’t want us to eat. I told you all this before, when you have a swimming pool, do not use chlorine, use salt water, the healing, salt water is the healing.
-									</p>
-								</div>
-							</article>
-						</div>
-					</div>
-					<!-- Project 2 -->
-					<div class="column">
-						<div class="box project-text">
-							<article>
-								<div>
-									<figure class="image project-figure">
-										<img src="assets/img/project-2.jpg" alt="Image">
-									</figure>
-								</div>
-								<div>			
-									<p>
-										Bless up. Another one. How’s business? Boomin. Don’t ever play yourself. Life is what you make it, so let’s make it.
-									</p>
-								</div>
-							</article>
-						</div>
-					</div>
-				</div>
-			</div>
+							</div>
+							</div>
 		</section>
 
 		<!-- Social -->
 		<section id="social" class="section section-3">
 			<div class="container">
-				<div class="has-text-centered">					
-					<h3 class="title is-3">Let's Socialize</h3>
+				<div class="container has-text-centered">
+					<br>					
+					<h3 class="title is-3">Contact</h3>
 				</div>
 				<div class="social-container columns">
-					<div class="column is-6 has-text-centered">
-						<a target="_blank" href="https://ca.linkedin.com/in/hassan-ali-6132468a"><img class="" src="assets/img/linkedin.png"></a>
-					</div>
-					<div class="column is-6 has-text-centered">
-						<a target="_blank" href="https://www.facebook.com/Hassan.Helfi"><img class="" src="assets/img/facebook.png"></a>
-					</div>
+						<div class="column is-3 has-text-centered">
+								<a href="malito:manuelamachhado.m@gmail.com" class="nav-item">
+										<span class="icon">
+											<i class="fa fa-envelope"></i>
+										</span>
+								</a>
+						</div>
+						<div class="column is-3 has-text-centered">
+								<a href="https://github.com/manuelamachado" class="nav-item">
+									<span class="icon">
+										<i class="fa fa-github"></i>
+									</span>
+								</a>
+						</div>
+						<div class="column is-3 has-text-centered">
+								<a href="https://www.linkedin.com/in/manuela-machado" class="nav-item">
+									<span class="icon">
+										<i class="fa fa-linkedin"></i>
+									</span>
+								</a>
+						</div>
+						<div class="column is-3 has-text-centered">
+								<a href="https://www.facebook.com/manuelamachado.m" class="nav-item">
+									<span class="icon">
+										<i class="fa fa-facebook"></i>
+									</span>
+								</a>
+						</div>
 				</div>
+
+
 			</div>
+
 		</section>	
 		
 		<!-- Footer -->
 		<section class="section-4 has-text-centered container">
-			<a href="http://www.hassanali.me/about">Hassan Ali</a>
+			<a href="https://manuelamachado.github.io/about">Manuela Machado</a>
 		</section>
 		
 		<!-- Scripts  -->

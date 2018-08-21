@@ -15,6 +15,9 @@ a:hover {
 section{
 	padding-top: 3rem;
 	padding-bottom: 3rem;
+	margin-left:2rem;
+	margin-right:2rem;
+	
 }
 
 .section-1 {
@@ -22,7 +25,7 @@ section{
 }
 
 .section-2 {
-	background-color: #052D3D;
+	background-color: #0E282E;
 }
 
 .section-3 {
@@ -42,11 +45,6 @@ a.nav-item:hover {
 	color: #fff;
 }
 
-.avatar{
-	height:200px;
-	border-radius: 50%;
-}
-
 .intro-description{
 	padding-top: 1rem;
 }
@@ -64,7 +62,7 @@ a.nav-item:hover {
 }
 
 .project-text {
-	text-align: justify;
+	text-align: center;
 }
 
 .box {
@@ -88,6 +86,7 @@ a.nav-item:hover {
 	background-color: transparent; 
 }
 
+
 @media screen and (max-width: 768px) {
 	.nav-menu {
 		background-color: #063647;
@@ -106,3 +105,47 @@ a.nav-item:hover {
 	}
 
 }
+
+h1 { 
+    display: block;
+    font-size: 1.5em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+ 
+}
+
+.card {
+	border-color:lightslategrey;
+	margin:5px;
+	border-style:double;
+	color:#5c5948da;
+	background:#efebe9;
+	text-align:center;
+	width:30vw;
+	height: 40vh;
+	float:left;
+	transition-duration: 0.5s;
+  }
+  
+  .card:hover{
+	transform: scale(1.05);
+	z-index: 2;
+  }
+  
+  .badge-secondary{
+	background-color: rgba(238, 238, 238, 0.829);
+	/*color: #5c5948da;*/
+	color: #d68d63;
+  }
+  
+  .badge-secondary:hover{
+	color:#ffecb3;
+  }
+  
+  .container {
+	margin: 0 auto;
+	align-content:  stretch;
+  }
+  
